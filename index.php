@@ -21,5 +21,6 @@ Kirby::plugin('candyblue/kirby3-browserupgrade', [
   ],
   'snippets' => [
     'browserupgrade' => __DIR__ . '/snippets/browserupgrade.php',
+    'browserupgrade-styles' => __DIR__ . '/snippets/browserupgrade-styles.php',
   ]
 ]);
