@@ -1,5 +1,9 @@
-# Kirby 3 Plugin Starterkit
+# Kirby 3 Browserupgrade
 
-1. Clone this repo with ```$ git clone https://github.com/wearecandyblue/kirby3-plugin.git <your-new-project-directory>```
-2. ```$ git remote set-url origin <your-new-git-repo-url>```
-3. ```$ git submodule add https://github.com/wearecandyblue/kirby3-gtm.git site/plugins/gtm```
+## Installation
+Install the plugin with: ```composer require candyblue/kirby3-browserupgrade```
+
+## Usage
+1. Use ```.browserupgrade```-class for custom styles.
+2. Import ```/assets/css/browserupgrade-gte-ie10.css``` into your main stylesheet.
+3. Optionally: Add custom translations in your ```site/languages```-folder.

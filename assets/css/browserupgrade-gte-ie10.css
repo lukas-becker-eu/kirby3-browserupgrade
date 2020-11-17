@@ -1,0 +1,8 @@
+.browserupgrade.browserupgrade--ie {
+  display: none;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .browserupgrade.browserupgrade--ie {
+    display: block !important;
+  }
+}
